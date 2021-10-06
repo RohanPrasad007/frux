@@ -1,0 +1,14 @@
+.home {
+  margin-bottom: 2rem;
+}
+
+.home .home-container {
+  max-width: 1040px;
+  margin: auto;
+}
+
+.home .home-container img {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}

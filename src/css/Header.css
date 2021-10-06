@@ -1,0 +1,17 @@
+header .header-container {
+  height: 100px;
+  width: 95%;
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+header .header-container .logo {
+  width: 90px;
+  height: 90px;
+}
+
+header .header-container .logo a img {
+  height: 100%;
+}

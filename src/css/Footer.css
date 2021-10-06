@@ -1,0 +1,38 @@
+footer {
+  background-color: #5d3fd3;
+  color: white;
+}
+
+footer .footer-container {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.footer-container .top {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 1rem;
+}
+
+.footer-container .top div {
+  width: 35px;
+  margin: auto;
+}
+
+.footer-container .contact {
+  width: 90px;
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.footer-container .contact a {
+  cursor: pointer;
+  color: #fff;
+}
+
+.footer-container .top:hover,
+.footer-container a:hover {
+  color: #f7f5fa;
+}
