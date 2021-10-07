@@ -23,11 +23,11 @@ function Footer() {
           </div>
         </div>
         <div className="contact">
-          <a href="mailto:007rohanprasad@gmail.com">
+          <a href="mailto:frux.site@gmail.com">
             <EmailIcon />
           </a>
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/frux_site/"
             target="_blank"
             rel="noreferrer"
             className="toggle-btn"
@@ -35,7 +35,7 @@ function Footer() {
             <InstagramIcon />
           </a>
           <a
-            href="https://www.youtube.com/"
+            href="https://www.youtube.com/channel/UCzJ658Q7698l4xzk7xuq3-w/featured"
             target="_blank"
             rel="noreferrer"
             className="toggle-btn"
