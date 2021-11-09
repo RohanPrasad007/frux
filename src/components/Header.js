@@ -1,15 +1,16 @@
 import React from "react";
 import "../css/Header.css";
 import logo from "../image/logo.svg";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header>
       <div className="header-container">
         <div className="logo">
-          <a href="/">
+          <Link to="/">
             <img src={logo} alt="frux" />
-          </a>
+          </Link>
         </div>
       </div>
     </header>
