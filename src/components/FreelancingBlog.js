@@ -1,10 +1,18 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "../css/Blog.css";
 import image from "../image/freelacing.svg";
 
 function FreelancingBlog() {
   return (
     <div className="blog">
+      <Helmet>
+        <title>How a 16 years old become a freelancer?</title>\
+        <meta
+          name="description"
+          content="A story of 16 year old boy web developer freelancer and make money"
+        />
+      </Helmet>
       <div className="blog-container">
         <h1>How a 16 years old become a freelancer?</h1>
         <img src={image} alt="hero" />
