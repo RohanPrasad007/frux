@@ -7,7 +7,7 @@ function FreelancingBlog() {
   return (
     <div className="blog">
       <Helmet>
-        <title>How a 16 years old become a freelancer?</title>\
+        <title>How a 16 years old become a freelancer?</title>
         <meta
           name="description"
           content="A story of 16 year old boy web developer freelancer and make money"
